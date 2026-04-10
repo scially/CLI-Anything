@@ -90,6 +90,7 @@
 !/renderdoc/
 !/cloudcompare/
 !/openscreen/
+!/QGIS/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
 /gimp/*
@@ -158,6 +159,8 @@
 /cloudcompare/.*
 /openscreen/*
 /openscreen/.*
+/QGIS/*
+/QGIS/.*
 /cloudanalyzer/*
 /cloudanalyzer/.*
 /wiremock/*
@@ -206,6 +209,7 @@
 !/wiremock/
 !/wiremock/agent-harness/
 !/exa/agent-harness/
+!/QGIS/agent-harness/
 
 # Step 7: Ignore build artifacts within allowed dirs
 **/__pycache__/
